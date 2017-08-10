@@ -1,7 +1,62 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/will/Projects/MA-COURSE/week2/oystercardweds/spec/oystercard_spec.rb": [
+      "/Users/deniska/Makers/oyster_card/spec/joureny_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/deniska/Makers/oyster_card/lib/journey.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        14,
+        14,
+        null,
+        null,
+        1,
+        5,
+        4,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        6,
+        null,
+        null
+      ],
+      "/Users/deniska/Makers/oyster_card/spec/oystercard_spec.rb": [
         1,
         null,
         1,
@@ -94,7 +149,7 @@
         null,
         null
       ],
-      "/Users/will/Projects/MA-COURSE/week2/oystercardweds/lib/Oystercard.rb": [
+      "/Users/deniska/Makers/oyster_card/lib/Oystercard.rb": [
         null,
         1,
         1,
@@ -104,6 +159,7 @@
         1,
         null,
         1,
+        17,
         17,
         17,
         17,
@@ -140,8 +196,39 @@
         4,
         null,
         null
+      ],
+      "/Users/deniska/Makers/oyster_card/spec/station_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/deniska/Makers/oyster_card/lib/station.rb": [
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1502290482
+    "timestamp": 1502375411
   }
 }
