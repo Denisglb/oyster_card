@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/deniska/Makers/oyster_card/spec/joureny_spec.rb": [
+      "/Users/lizziehard/challenges/week_2/oyster_card/spec/joureny_spec.rb": [
         1,
         null,
         1,
@@ -29,7 +29,7 @@
         null,
         null
       ],
-      "/Users/deniska/Makers/oyster_card/lib/journey.rb": [
+      "/Users/lizziehard/challenges/week_2/oyster_card/lib/journey.rb": [
         1,
         null,
         1,
@@ -39,29 +39,28 @@
         1,
         null,
         1,
-        14,
-        14,
-        null,
-        null,
-        1,
-        5,
-        4,
-        null,
-        1,
-        null,
+        12,
+        12,
         null,
         null,
         1,
         6,
+        2,
+        null,
+        4,
+        null,
+        null,
+        null,
+        1,
+        7,
         null,
         null
       ],
-      "/Users/deniska/Makers/oyster_card/spec/oystercard_spec.rb": [
+      "/Users/lizziehard/challenges/week_2/oyster_card/spec/oystercard_spec.rb": [
         1,
         null,
         1,
         5,
-        1,
         null,
         1,
         1,
@@ -88,7 +87,6 @@
         1,
         1,
         1,
-        null,
         1,
         null,
         null,
@@ -149,12 +147,11 @@
         null,
         null
       ],
-      "/Users/deniska/Makers/oyster_card/lib/Oystercard.rb": [
+      "/Users/lizziehard/challenges/week_2/oyster_card/lib/Oystercard.rb": [
         null,
         1,
         1,
         null,
-        1,
         1,
         1,
         null,
@@ -172,11 +169,11 @@
         null,
         null,
         1,
+        9,
         8,
-        7,
-        7,
-        7,
-        7,
+        8,
+        8,
+        8,
         null,
         null,
         1,
@@ -197,7 +194,7 @@
         null,
         null
       ],
-      "/Users/deniska/Makers/oyster_card/spec/station_spec.rb": [
+      "/Users/lizziehard/challenges/week_2/oyster_card/spec/station_spec.rb": [
         1,
         null,
         1,
@@ -213,7 +210,7 @@
         null,
         null
       ],
-      "/Users/deniska/Makers/oyster_card/lib/station.rb": [
+      "/Users/lizziehard/challenges/week_2/oyster_card/lib/station.rb": [
         1,
         1,
         null,
@@ -229,6 +226,6 @@
         null
       ]
     },
-    "timestamp": 1502375411
+    "timestamp": 1502377230
   }
 }
