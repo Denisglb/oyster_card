@@ -21,17 +21,23 @@ class OysterCard
 
   def tap_in(station)
     raise "Sorry, you don't have enough money! please top-up!" if @balance <= 1
-    raise 'error, you have already tapped in' unless @entry_station.nil?
+    deduct unless @entry_station.nil?
     @entry_station = station
     @journey_array << Journey.new(station)
     "You have tapped in at #{station}"
   end
 
   def tap_out(station)
+    if @entry_station == nil
+      @journey_array << Journey.new(nil, station)
+      deduct
+      "You have forgot to tap in a penalty fare has been charged"
+    else
     @entry_station = nil
-    @journey_array[-1].exit_station = station
-    deduct
-    "you have tapped out at #{station}"
+      @journey_array[-1].exit_station = station
+      deduct
+      "you have tapped out at #{station}"
+    end
   end
 
   def in_use?
