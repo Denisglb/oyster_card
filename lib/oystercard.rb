@@ -4,6 +4,7 @@ class OysterCard
 
   MAX_BALANCE = 90
   DEFAULT_TOP_UP_AMOUNT = 5
+  MINIMUM_CHARGE =2
 
   def initialize
     @balance = 0
@@ -19,11 +20,16 @@ class OysterCard
   end
 
   def tap_in(station)
-    raise "Sorry, you don't have enough money! please top-up!" if @balance <= 1
-    deduct unless @entry_station.nil?
+    raise + "Sorry, you don't have enough money! please top-up!" if @balance <= 1
+    if @entry_station != nil
+      @journey_array << Journey.new(station, nil)
+      deduct 
+      "you have tapped in twice! you have been charged a penalty fare"
+    else
     @entry_station = station
     @journey_array << Journey.new(station)
     "You have tapped in at #{station}"
+  end
   end
 
   def tap_out(station)
